@@ -11,6 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 const routes: Routes = [
   { path: '', component: ProfileComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'skills', component: SkillsComponent },
 ];
 
 @NgModule({
