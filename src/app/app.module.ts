@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
+import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
   { path: '', component: ProfileComponent },
@@ -17,7 +18,8 @@ const routes: Routes = [
     AppComponent,
     NavbarComponent,
     ProfileComponent,
-    AboutComponent
+    AboutComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
